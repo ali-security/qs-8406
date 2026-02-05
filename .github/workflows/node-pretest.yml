@@ -4,4 +4,4 @@ on: [pull_request, push]
 
 jobs:
   tests:
-    uses: ljharb/actions/.github/workflows/pretest.yml@main
+    uses: ljharb/actions/.github/workflows/pretest.yml@b82215040d0711e3252126c08551315008964c4f
