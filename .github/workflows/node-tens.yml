@@ -6,12 +6,12 @@ jobs:
   tests:
     uses: ljharb/actions/.github/workflows/node.yml@b82215040d0711e3252126c08551315008964c4f
     with:
-      range: '>= 10'
+      range: '>= 0.12'
       type: minors
       command: npm run tests-only
 
   node:
-    name: node >= 10
+    name: node >= 0.12
     needs: [tests]
     runs-on: ubuntu-22.04
     steps:
